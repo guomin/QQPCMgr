@@ -1,0 +1,65 @@
+#ifndef ___ICE_DUI_H__
+#define ___ICE_DUI_H__
+
+#include "..\stdafx.h"
+
+//////////////////////////////////////////////////////////
+//Base
+#include "Base/ControlBase.h"
+#include "Base/GlobalFunction.h"
+#include "Base/MessageInterface.h"
+
+//////////////////////////////////////////////////////////
+//Timer
+#include "Timer/Timer.h"
+
+//////////////////////////////////////////////////////////
+//Button
+#include "Button/ButtonEx.h"
+#include "Button/CheckButton.h"
+#include "Button/HideButton.h"
+#include "Button/ImageButton.h"
+#include "Button/LinkButton.h"
+#include "Button/TextButton.h"
+
+//////////////////////////////////////////////////////////
+//List
+#include "List/ListEx.h"
+
+//////////////////////////////////////////////////////////
+//Other
+#include "Other/Area.h"
+#include "Other/Frame.h"
+#include "Other/ImageString.h"
+#include "Other/Line.h"
+#include "Other/Runing.h"
+#include "Other/Scroll.h"
+#include "Other/SelectBox.h"
+
+//////////////////////////////////////////////////////////
+//Picture
+#include "Picture/Picture.h"
+
+//////////////////////////////////////////////////////////
+//Progress
+#include "Progress/Progress.h"
+
+//////////////////////////////////////////////////////////
+//Tab
+#include "Tab/Tab.h"
+
+//////////////////////////////////////////////////////////
+//Text
+#include "Text/StaticText.h"
+
+//////////////////////////////////////////////////////////
+//Dialog
+#include "Dialog\DlgBase.h"
+#include "Dialog\DlgPopup.h"
+
+//////////////////////////////////////////////////////////
+//Menu
+#include ".\Menu\MenuItem.h"
+#include ".\Menu\MenuEx.h"
+
+#endif
